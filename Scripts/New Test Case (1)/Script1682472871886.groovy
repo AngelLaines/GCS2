@@ -17,7 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Windows.startApplicationWithTitle('C:\\Users\\Angel\\Desktop\\Roy Lavadoras\\Roy Lavadoras.exe', 'Roy Lavadoras')
+Windows.startApplicationWithTitle('C:\\Users\\Angel\\Desktop\\Roy Lavadoras\\app.publish\\Roy Lavadoras.exe', 'Roy Lavadoras')
+
+Windows.click(findWindowsObject('Object Repository/Button'))
+
+Windows.click(findWindowsObject('Object Repository/Button(1)'))
+
+Windows.switchToWindowTitle('frmBuscar')
+
+Windows.click(findWindowsObject('Object Repository/Window'))
+
+Windows.click(findWindowsObject('Object Repository/Button(2)'))
 
 Windows.closeApplication()
 

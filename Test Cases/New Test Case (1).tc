@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Buscar por nombre</name>
+   <name>New Test Case (1)</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>e121fc27-45e8-4c28-a9d2-0cd525779721</testCaseGuid>
+   <testCaseGuid>d67c58dc-342f-4ce8-a5c0-075c3ed3d135</testCaseGuid>
 </TestCaseEntity>
